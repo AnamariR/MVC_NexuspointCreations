@@ -1,0 +1,197 @@
+body
+{
+  font-family: sans-serif;
+  background-color: #131515;
+}
+body p
+{
+  font-size: 0.8em;
+  line-height: 1.28;
+  color: white;
+}
+footer
+{
+  height: 50px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  color: #fffafb;
+}
+#wrapper
+{
+    width: 1080px;
+    background-color: #2b2c28;
+    margin: 0 auto;
+}
+#banner
+{
+  background-image: url(/nexuspoint/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+}
+.content
+{
+  margin: 0px 30px 30px 30px;
+  color: #fffafb;
+  position: relative
+}
+#content
+{
+  margin: 0px 30px 30px 30px;
+  color: #fffafb;
+  position: relative
+}
+#top
+{
+  height:50px;
+  margin-top: 20px;
+  text-shadow: 0.1em 0.1em #333;
+}
+#topnav
+{
+  list-style: none;
+}
+#topnav ul
+{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  display: none;
+}
+#topnav li
+{
+  font-size: 15px;
+  float: right;
+  position: center;
+  width: auto;
+  padding-top: 10px;
+  padding-right: 15px;
+  height: 30px;
+}
+#topnav a:link, a:active, a:visited
+{
+  display: block;
+  color: #fffafb;
+  text-decoration: none;
+}
+#topnav a:hover
+{
+  color: #339989;
+}
+#sname
+{
+  padding-left: 40px;
+}
+#sort
+{
+  height: 60px;
+  margin-top: 20px;
+}
+#sortnav
+{
+  list-style: none;
+}
+#sortnav ul
+{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  display: none;
+}
+#sortnav li
+{
+  font-size: 15px;
+  float: left;
+  position: static;
+  width: auto;
+  height: 40px;
+  padding-right: 10px;
+}
+#sortnav a:link, a:active, a:visited
+{
+  display: block;
+  color: #fffafb;
+  text-decoration: none;
+}
+#sortnav a:hover
+{
+  color: #339989;
+}
+.gameTable
+{
+  width: 1000px;
+  height: 180px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid #fffafb;
+  border-radius: 10px;
+  display: block;
+  background-color: #131515;
+}
+#block a:link, a:active, a:visited
+{
+  color: #fffafb;
+  text-decoration: none;
+}
+#block a:hover
+{
+  color: #339989;
+}
+.gameTable tr td
+{
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+.gameTable img
+{
+  padding: 10px 10px 10px 10px;
+}
+#post
+{
+  width: 1000px;
+  height: auto;
+  margin: 10px 10px 10px 10px;
+  padding-left:10px;
+  border-left: 4px solid #339989;
+}
+#post p
+{
+  font-size: 10px;
+  color: #7de2d1;
+  padding-left: 10px;
+}
+#comment
+{
+  width: auto;
+  height: auto;
+  margin: 10px 10px 10px 50px;
+  padding-left:10px;
+  border-left: 4px solid #7de2d1;
+}
+#comment p
+{
+  font-size: 10px;
+}
+hr
+{
+  border: 1px solid #131515;
+}
+.form
+{
+  height: 9em;
+  position: relative
+}
+.formReg
+{
+  height: 24em;
+  position: relative
+}
+#form
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
